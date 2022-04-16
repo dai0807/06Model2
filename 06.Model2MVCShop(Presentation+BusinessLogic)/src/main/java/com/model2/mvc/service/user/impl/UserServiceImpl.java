@@ -48,7 +48,7 @@ public class UserServiceImpl implements UserService{
 		map.put("list", list );
 		map.put("totalCount", new Integer(totalCount));
 		
-		return map;
+		return map; // ¸ÊÀ¸·Î ´øÁü
 	}
 
 	public void updateUser(User user) throws Exception {

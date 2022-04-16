@@ -21,7 +21,7 @@
 </script>
 
 <script type="text/javascript">
-<!--
+ 
 function fncAddProduct(){
 	//Form 유효성 검증
  	var name = document.detailForm.prodName.value;
@@ -49,7 +49,7 @@ function fncAddProduct(){
 	document.detailForm.action='/updateProduct.do';
 	document.detailForm.submit();
 }
--->
+ 
 </script>
 </head>
 

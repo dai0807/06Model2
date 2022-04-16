@@ -156,7 +156,7 @@ public class UserController {
 			search.setCurrentPage(1);
 		}
 		search.setPageSize(pageSize);
-		
+		System.out.println("search 정보들 "+search);
 		// Business logic 수행
 		Map<String , Object> map=userService.getUserList(search);
 		
