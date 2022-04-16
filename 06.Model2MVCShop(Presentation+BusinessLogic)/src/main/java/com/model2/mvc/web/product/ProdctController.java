@@ -90,7 +90,7 @@ public class ProdctController {
 		model.addAttribute("search", search);
 		
 		
-		return "forward:/user/listUser.jsp";
+		return "forward:/product/listProduct.jsp";
 	}
 	
 }
